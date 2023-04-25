@@ -1,0 +1,15 @@
+jobmanager.rpc.address: localhost
+jobmanager.rpc.port: 6123
+jobmanager.heap.mb: 256
+
+taskmanager.heap.mb: 1024
+taskmanager.numberOfTaskSlots: 2
+taskmanager.memory.off-heap: false
+
+blob.server.port: 6124
+query.server.port: 6125
+
+metrics.reporters: jmx
+metrics.reporter.jmx.factory.class: org.apache.flink.metrics.jmx.JMXReporterFactory
+
+  
